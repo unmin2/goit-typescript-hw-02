@@ -3,5 +3,4 @@
   І так само визначте змінну, яка може приймати тільки одне з двох рядкових значень: 'enable' або 'disable' (literal type)?
 */
 
-let variable: string | number;
-
+let variable: 'enable' | 'disable';

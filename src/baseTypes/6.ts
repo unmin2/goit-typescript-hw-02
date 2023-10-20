@@ -4,7 +4,7 @@
 
 
 export { };
-function showMessage(message: any) {
+function showMessage(message: any): void {
   console.log(message);
 }
 
@@ -12,6 +12,6 @@ function calc(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-function customError(): void {
+function customError(): never {
   throw new Error('Error');
 }
